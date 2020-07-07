@@ -54,9 +54,7 @@ h1{
 	display: flex;
 	align-items: center;
 	text-align: center;
-
 	color: #FFFFFF;
-
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .info{
@@ -91,7 +89,7 @@ h1{
 .texto1{
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content:space-around;
 	align-content: center;
 }
 
@@ -109,15 +107,53 @@ h2{
 
 	color: #202020;
 }
-
+.fundoazul{
+	opacity: 0.38;
+}
 .formulario{
-	width: 250px;
+	width: 450px;
 	height: 200px;
 	/*left: 819px;
 	top: 209px;*/
 	background-image: url(imagens/FUNDO\ AZUL.png);
 	background: #92D3F5;
-	/*justify-content: space-around;*/
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+/*.formulario p{
+	width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-top-width: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}*/
+
+.queroparticipar{
+	color: #E5E5E5 ;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;	
+	background-color: #008efe;
+	border-radius: 92px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+	padding-left: 0px;
+    width: 372px;
+    height: 84px;
+
+
 }
 
 /*.countdownContainer{
