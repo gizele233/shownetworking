@@ -93,12 +93,11 @@ h1{
 	align-content: center;
 }
 
-h2{
+.texto2{
 	width: 759px;
 	height: 94px;
 	left: 40px;
 	top: 263px;
-
 	font-family: 'Questrial';
 	font-style: normal;
 	font-weight: normal;
@@ -122,16 +121,6 @@ h2{
 	justify-content: center;
 	border-radius: 10px;
 }
-/*.formulario p{
-	width: 200px;
-    height: 40px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    border-top-width: 6px;
-    padding-left: 100px;
-    padding-right: 100px;
-
-}*/
 
 .queroparticipar{
 	color: #E5E5E5 ;
@@ -152,22 +141,20 @@ h2{
 	padding-left: 0px;
     width: 372px;
     height: 84px;
-
-
 }
 
-/*.countdownContainer{
-	/*position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	text-align: center;
-	background:#ddd;
-	border: 1px solid #999;
-	padding: 10px;
-	box-shadow: 0 0 5px 3px #ccc;
+.tconvidados{
+	border-radius: 100px;
+	background-color: #FFFFFF;
 }
 
-.info{
-	font-size: 80px;
-}*/
+.convidados{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content:flex-start;
+	align-content: center;
+}
+.tsobre{
+	border-radius: 100px;
+	background-color: #008efe;
+}
