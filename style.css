@@ -1,6 +1,6 @@
 body{
 	background-image: url(imagens/FUNDO\ IMG.png);
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Questrial', 'sans-serif';
 }
 
 .topo{
@@ -20,8 +20,7 @@ h1{
 	left: 36px;
 	top: 64px;
 	margin-bottom: 0px;
-	
-	font-family: 'Righteous', cursive;
+	font-family: 'Righteous', 'cursive';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 100px;
@@ -100,7 +99,7 @@ h1{
 	top: 263px;
 	font-family: 'Questrial';
 	font-style: normal;
-	font-weight: normal;
+	/*font-weight: normal;*/
 	font-size: 30px;
 	line-height: 31px;
 
