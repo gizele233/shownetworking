@@ -1,9 +1,127 @@
 body{
-	background:#f6f6f6;
+	background-image: url(imagens/FUNDO\ IMG.png);
+	font-family: 'Questrial', sans-serif;
 }
 
+.topo{
+	background-color: #008efe;
+	display: flex;
+	justify-content: center;
+}
+.titulo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	
+}
+h1{
+	width: 460px;
+	height: 107px;
+	left: 36px;
+	top: 64px;
+	margin-bottom: 0px;
+	
+	font-family: 'Righteous', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 124px;
+	/*display: flex;
+	align-items: center;*/
+	
+	color: #FFFFFF;
+	
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-decoration: underline black;
+}
+.temporizador{
+	width: 593px;
+	height: 107px;
+	left: 64px;
+	top: 64px;
+	/*margin-bottom: 0px;*/
+}
 .countdownContainer{
-	position: absolute;
+	/*width: 52.96px;
+	height: 46.44px;
+	left: 530.48px;
+	top: 94.74px;*/
+	font-family: 'Righteous';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info{
+	/*width: 100px;
+	height: 100px;*/
+	border-radius: 50px;
+	/*margin: 50px;*/
+	background: #64CAFF;
+}
+.aviso{
+	color: black;
+}
+.subtitulo{
+	width: 460px;
+	height: 65px;
+	left: 36px;
+	top: 183px;
+	margin-top: 0px;
+    margin-bottom: 2px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	color: #202020;
+}
+
+.texto1{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+h2{
+	width: 759px;
+	height: 94px;
+	left: 40px;
+	top: 263px;
+
+	font-family: 'Questrial';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 31px;
+
+	color: #202020;
+}
+
+.formulario{
+	width: 250px;
+	height: 200px;
+	/*left: 819px;
+	top: 209px;*/
+	background-image: url(imagens/FUNDO\ AZUL.png);
+	background: #92D3F5;
+	/*justify-content: space-around;*/
+}
+
+/*.countdownContainer{
+	/*position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
@@ -16,4 +134,4 @@ body{
 
 .info{
 	font-size: 80px;
-}
+}*/

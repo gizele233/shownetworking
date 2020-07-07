@@ -6,43 +6,57 @@
     <meta name="Description" content="">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/IDENTIDADE AZUL.png">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Righteous&display=swap" rel="stylesheet">
+
+
 
     <title>FICA BEM</title>
 </head>
 <body>
-    <h1>LifeLive</h1>
-    <h2>Live super especial com convidados da área da saúde que darão orientações de qualidade de como se manter saudável no nosso contexto atual.</h2>
-    <div id="data"></div>
-    <div>
-        <table class="countdownContainer">
-            <tr class="info">
-                <td colspan="4">Contagem Regressiva</td>
-            </tr>
-            <tr class="info">
-                <td id="days"></td>
-                <td id="hours"></td>
-                <td id="minutes"></td>
-                <td id="seconds"></td>
-            </tr>
-            <tr>
-                <td>Dias</td>
-                <td>Horas</td>
-                <td>Minutos</td>
-                <td>Segundos</td>
-            </tr>
-        </table>
-        
-        <form name="contact" netlify>
-            <p>
-              <label>Nome <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <button type="submit">QUERO PARTICIPAR!</button>
-            </p>
-          </form>
+    <div class="topo"><img src="imagens/LOGO HEAD.png" alt="logo"></div>
+    <div class="titulo">
+        <div>
+            <h1>LifeLive</h1>
+        </div>
+        <div class="temporizador">
+            <table class="countdownContainer">
+
+                <tr class="info">
+                    <td id="days"></td>
+                    <td id="hours"></td>
+                    <td id="minutes"></td>
+                    <td id="seconds"></td>
+                </tr>
+                <tr>
+                    <td>Dias</td>
+                    <td>Horas</td>
+                    <td>Minutos</td>
+                    <td>Segundos</td>
+                </tr>
+                <tr class="aviso">
+                    <td colspan="4"><span class="aviso">Esta chegando!!</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="subtitulo"><p>Dia 8 de Julho 14h às 15h</p></div>
+    <div class="texto1">
+        <div>
+            <h2>Live super especial com convidados da área da saúde que darão orientações de qualidade de como se manter saudável no nosso contexto atual.</h2>
+        </div>
+        <div class="formulario">
+            <form name="contact" netlify>
+                <p>
+                <label>Nome <input type="text" name="name" /></label>
+                </p>
+                <p>
+                <label>Email <input type="email" name="email" /></label>
+                </p>
+                <p>
+                <button type="submit">QUERO PARTICIPAR!</button>
+                </p>
+            </form>
+        </div>
     </div>
     <div>
         <h2>Convidados</h2>
