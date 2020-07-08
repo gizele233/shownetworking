@@ -5,6 +5,10 @@ body{
 	padding: 0px;
 }
 
+.popup{
+justify-content: center;
+}
+
 .topo{
 	background-color: #008efe;
 	display: flex;
