@@ -32,7 +32,31 @@ function countdown(){
 	document.getElementById("seconds").innerText = s;
 
 
-	setTimeout(countdown, 1000); //setTimout(função, em qnt tempo quer que ele execute novamente)
+	 
+
+	if(d+h+m+s>0){
+		var exec = setTimeout(countdown, 1000);//setTimout(função, em qnt tempo quer que ele execute novamente)
+	}else{
+		//document.getElementById('chegou').innerHTML = 'CHEGOU O DIA!!!!';
+		clearTimeout(exec);
+		h = "0"; 
+		m = "0";
+		s = "0";
+		d = '0';
+
+		document.getElementById("days").textContext = d;
+		document.getElementById("days").innerText = d;
+
+		document.getElementById("hours").textContext = h;
+		document.getElementById("hours").innerText = h;
+
+		document.getElementById("minutes").textContext = m;
+		document.getElementById("minutes").innerText = m;
+
+		document.getElementById("seconds").textContext = s;
+		document.getElementById("seconds").innerText = s;
+
+	}
 }
 
 countdown();
