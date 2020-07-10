@@ -1,0 +1,359 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-image: url(imagens/FUNDO\ IMG.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Questrial', 'sans-serif';
+	margin: 0px;
+	padding: 0px;
+}
+
+.popup{
+justify-content: center;
+}
+
+.topo{
+	background-color: #008efe;
+	display: flex;
+	justify-content: center;
+}
+.titulo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	
+}
+h1{
+	width: 460px;
+	height: 107px;
+	left: 36px;
+	top: 64px;
+	margin-bottom: 0px;
+	font-family: 'Righteous', 'cursive';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 124px;
+	/*display: flex;
+	align-items: center;*/
+	
+	color: #FFFFFF;
+	
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-decoration: underline black;
+}
+.temporizador{
+	width: 593px;
+	height: 107px;
+	left: 64px;
+	top: 64px;
+	/*margin-bottom: 0px;*/
+}
+.countdownContainer{
+	/*width: 52.96px;
+	height: 46.44px;
+	left: 530.48px;
+	top: 94.74px;*/
+	font-family: 'Righteous';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info{
+	/*width: 100px;
+	height: 100px;*/
+	border-radius: 50px;
+	/*margin: 50px;*/
+	background: #64CAFF;
+}
+.aviso{
+	color: black;
+}
+.subtitulo{
+	width: 460px;
+	height: 65px;
+	left: 36px;
+	top: 183px;
+	margin-top: 0px;
+    margin-bottom: 2px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	color: #202020;
+}
+
+.texto1{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+	align-content: center;
+}
+
+.texto2{
+	width: 759px;
+	height: 94px;
+	left: 40px;
+	top: 263px;
+	font-family: 'Questrial';
+	font-style: normal;
+	/*font-weight: normal;*/
+	font-size: 25px;
+	line-height: 40px;
+
+	color: #202020;
+}
+.fundoazul{
+	opacity: 0.38;
+}
+.formulario{
+	width: 450px;
+	height: 200px;
+	/*left: 819px;
+	top: 209px;*/
+	background-image: url(imagens/FUNDO\ AZUL.png);
+	background: #92D3F5;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.queroparticipar{
+	color: #E5E5E5;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;	
+	background-color: #008efe;
+	border-radius: 92px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+	padding-left: 0px;
+    width: 372px;
+    height: 84px;
+}
+
+.tconvidados{
+	width: auto; 
+	height: auto;
+	border-radius: 100px;
+	background-color: #008efe;
+	color: #FFFFFF;
+}
+
+.convidados{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content:flex-start;
+	align-content: center;
+}
+
+.tsobre{
+	border-radius: 100px;
+	background-color: #008efe;
+}
+.ft-convidados{
+	border-radius: 360px;
+}
+
+.card-agradecim{
+	position: absolute;
+	width: 968px;
+	height: 504px;
+	left: 156px;
+	top: 86px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 49px;
+}
+
+.tagradecim{
+	position: absolute;
+	width: 813px;
+	height: 82px;
+	left: 100px;
+	top: 2px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 45px;
+	line-height: 53px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #008EFE;
+}
+
+.content-agradec{
+	position: absolute;
+	width: 704px;
+	height: 189px;
+	left: 150px;
+	top: 110px;
+
+	font-family: Questrial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #202020;
+}
+
+.content-sociais{
+	position: absolute;
+	width: 796px;
+	height: 84px;
+	left: 120px;
+	top: 280px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 43px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.lifelive{
+	position: absolute;
+	width: 421.08px;
+	height: 109.33px;
+	left: 450px;
+	top: 560px;
+
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 124px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.data-subtitulo{
+	width: 460px;
+	height: 65px;
+	left: 100px;
+	top: 700px;
+	margin-left: 450px;
+	margin-top: 685px;
+    margin-bottom: 1px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	color: #202020;
+}
+
+.msg-final{
+	margin-left: 425px;
+}
+
+.sociais-tamanho{
+	width: 75px;
+	margin: 10px;
+}
+.sociais-posi{
+	margin-top: 360px;
+	margin-left: 310px;
+}
+
+/*para smartphone*/
+@media (max-width: 600px) {
+	h1{
+		/*font-size: 56px;*/
+		padding: 10px;
+	}
+
+	.topo{
+		width: 580px;
+
+	}
+
+	.texto1 {
+		display: inline;
+
+	}
+
+	.texto2{
+		width: 530px;
+		font-size: 16px;
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+
+	.fundoazul{
+		width: 50px;
+		height: 50px;
+		opacity: 10%;
+	}
+
+	.formulario{
+		align-items: center;
+		padding: 10px;
+	}
+
+	.convidados{
+		padding: 30px;
+		align-items: center;
+	}
+
+	.temporizador{
+		width: 530px;
+		font-size: 16px;
+		padding: 10px;
+		
+	}
+
+	.tconvidados{
+		width: 530px;
+	}
+
+	.tsobre{
+		width: 530px;
+	}
+
+	.sobre{
+		width: 530px;
+		font-size: 16px;
+		padding: 10px;
+	}
+}

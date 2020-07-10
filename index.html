@@ -6,40 +6,102 @@
     <meta name="Description" content="">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/IDENTIDADE AZUL.png">
-
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Righteous&display=swap" rel="stylesheet">
     <title>FICA BEM</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KLWS94T');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLWS94T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Hotjar Tracking Code for https://ficabem.info/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1890882,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 </head>
-<body>
-    <h1>LifeLive</h1>
-    <h2>Live super especial com convidados da área da saúde que darão orientações de qualidade de como se manter saudável no nosso contexto atual.</h2>
-    <div id="data"></div>
-    <div>
-        <form name="contact" netlify>
-            <p>
-              <label>Nome <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <button type="submit">QUERO PARTICIPAR!</button>
-            </p>
-          </form>
-    </div>
-    <div>
-        <h2>Convidados</h2>
-        <p>Fulano de tal</p>
-        <p>Fulano de tal</p>
-        <p>Fulano de tal</p>
+<body class="popup">
+    <div class="topo"><img src="imagens/LOGO HEAD.png" alt="logo"></div>
+    <div class="titulo">
+        <div>
+            <h1>LifeLive</h1>
+        </div>
+        <div class="temporizador" id="chegou">
+            <table class="countdownContainer">
 
+                <tr class="info">
+                    <td id="days"></td>
+                    <td id="hours"></td>
+                    <td id="minutes"></td>
+                    <td id="seconds"></td>
+                </tr>
+                <tr>
+                    <td>Dias</td>
+                    <td>Horas</td>
+                    <td>Minutos</td>
+                    <td>Segundos</td>
+                </tr>
+                <!--<tr class="aviso">
+                    <td colspan="4"><span class="aviso">Esta chegando!!</span></td>
+                </tr>-->
+            </table>
+        </div>
     </div>
-    <div>
-        <h2>Sobre o evento</h2>
-        <p>Nós da #Fique Bem nascemos com o propósito de promover o acesso on-line entre profissionais da saúde e pacientes. Temos orgulho de poder facilitar essa integração do mundo digital ao mundo da saúde.</p>
-        <p>Pensando nisso, preparamos um evento super bacana com orientações para você cuidar do seu bem mais precioso que é a sua saúde.</p>
-        <p>Convidamos especialistas em diversas áreas para falar um pouco sobre pequenos cuidados do dia que fazem grande diferenças em nossas vidas. Vamos falar sobre saúde mental, física e alimentar. Bora lá?</p>
-    </div>
+    <div class="subtitulo"><p>Dia 8 de Julho 20h às 21h</p></div>
+    <div class="texto1" width="1500px";>
+        <div class="texto2">
+            <h2>Live super especial com convidados da área da saúde que darão orientações de qualidade de como se manter saudável no nosso contexto atual.</h2>
+        </div>
+        <div class="fundoazul"><img src="imagens/LOGO PARA FUDNO AZUL.png" alt="" width="194px"; height="194px";></div>
+        <div class="formulario" style="width: 400px;">
+            <p>Preencha os campos abaixo para se cadastrar</p>
+            <form name="contact" netlify>
+                <p>
+                <label>Nome <input type="text" name="name" style="width: 280px;" /></label>
+                </p>
+                <p>
+                <label>Email <input type="email" name="email" style="width: 280px;"/></label>
+                </p><br>
+                <button type="submit" class="queroparticipar"> <a href="obrigado.html" style="text-decoration: none; color: #E5E5E5">QUERO PARTICIPAR!</a></button>
 
+                  
+            </form>
+        </div>
+    </div>
+    <div class="tconvidados"><h2>Convidados</h2></div>
+    <div class="convidados">
+        <div>
+            <img src="imagens/Milena.png" alt="Milena Ioselli" class="ft-convidados">
+            <p>Milena Ioselli</p>
+        </div>
+        <div>
+            <img src="imagens/Rodrigo.png" alt="Rodrigo Varela" class="ft-convidados">
+            <p>Rodrigo Varela</p>
+        </div>
+        <div>
+            <img src="imagens/Thabata.png" alt="Thabata Fonseca" class="ft-convidados">
+            <p>Thabata Fonseca</p>
+        </div>
+    </div>
+    
+    <div class="tsobre"><h2 style="color: #E5E5E5;">Sobre o evento</h2></div>
+    <div class="sobre">
+        <div><p>Nós da #Fique Bem nascemos com o propósito de promover o acesso on-line entre profissionais da saúde e pacientes. Temos orgulho de poder facilitar essa integração do mundo digital ao mundo da saúde.</p></div>
+        <div><p>Pensando nisso, preparamos um evento super bacana com orientações para você cuidar do seu bem mais precioso que é a sua saúde.</p></div>
+        <div><p>Convidamos especialistas em diversas áreas para falar um pouco sobre pequenos cuidados do dia que fazem grande diferenças em nossas vidas. Vamos falar sobre saúde mental, física e alimentar. Bora lá?</p></div>
+    </div>  
 
     <script src="main.js"></script>
 </body>
