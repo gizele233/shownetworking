@@ -1,5 +1,12 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
 	background-image: url(imagens/FUNDO\ IMG.png);
+	background-repeat: no-repeat;
+    background-size: cover;
 	font-family: 'Questrial', 'sans-serif';
 	margin: 0px;
 	padding: 0px;
@@ -162,9 +169,7 @@ h1{
 	justify-content:flex-start;
 	align-content: center;
 }
-.nome-conv{
 
-}
 .tsobre{
 	border-radius: 100px;
 	background-color: #008efe;
@@ -289,4 +294,66 @@ h1{
 .sociais-posi{
 	margin-top: 360px;
 	margin-left: 310px;
+}
+
+/*para smartphone*/
+@media (max-width: 600px) {
+	h1{
+		/*font-size: 56px;*/
+		padding: 10px;
+	}
+
+	.topo{
+		width: 580px;
+
+	}
+
+	.texto1 {
+		display: inline;
+
+	}
+
+	.texto2{
+		width: 530px;
+		font-size: 16px;
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+
+	.fundoazul{
+		width: 50px;
+		height: 50px;
+		opacity: 10%;
+	}
+
+	.formulario{
+		align-items: center;
+		padding: 10px;
+	}
+
+	.convidados{
+		padding: 30px;
+		align-items: center;
+	}
+
+	.temporizador{
+		width: 530px;
+		font-size: 16px;
+		padding: 10px;
+		
+	}
+
+	.tconvidados{
+		width: 530px;
+	}
+
+	.tsobre{
+		width: 530px;
+	}
+
+	.sobre{
+		width: 530px;
+		font-size: 16px;
+		padding: 10px;
+	}
 }
